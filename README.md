@@ -1,44 +1,36 @@
 # Core Java Learning
 
-A structured repository for learning and practicing Core Java with concise notes, coding exercises, assignments, and interview-focused questions.
+A structured repository for practicing Core Java through topic-wise assignments and coding solutions.
 
-The repository focuses on concepts required for strong Java fundamentals and SDE-2 interview preparation.
+The repository focuses on strengthening Java fundamentals and preparing for SDE-2 Java interviews.
 
 ## Repository Structure
 
-Each major module follows a consistent structure:
+Each learning module contains an assignment file and its coding solutions:
 
 ```text
 module-name/
-├── notes/
-│   └── topic-name/
-│       ├── topic-name.md
-│       └── assignments.md
+├── assignment.md
 └── code/
-    └── topic-name/
-        └── TopicExample.java
+    ├── ProblemOne.java
+    └── ProblemTwo.java
 ```
 
-### Notes
+### Assignment
 
-Each topic note contains:
+Each `assignment.md` file contains:
 
-- Concise concept explanations
-- Interview-relevant details
-- Examples only where required
-- Internal implementation only when important
-- Simple and easy-to-understand English
+- Topic-based coding problems
+- Conceptual questions
+- Interview questions with concise answers
 
-### Assignments
+### Code
 
-Each assignment file contains:
+The `code/` folder contains:
 
-- Carefully selected coding problems
-- Topic-based practical exercises
-- Interview questions
-- Concise interview answers
-
-The focus is on quality and concept coverage rather than the number of questions.
+- Solutions to assignment problems
+- Clean and readable Java code
+- Topic-wise practical implementations
 
 ## Learning Modules
 
@@ -46,41 +38,31 @@ The focus is on quality and concept coverage rather than the number of questions
 01-java-basics
 02-oops
 03-packages-and-exception-handling
-04-wrapper-classes-and-object-utilities
-05-collections-and-generics
-06-multithreading-and-concurrency
-07-java-8-features
-08-file-handling-and-serialization
-09-jvm-and-memory-management
-10-jdbc
-11-advanced-and-interview-practice
+04-collections-and-generics
+05-multithreading-and-concurrency
+06-java-8-features
+07-file-handling-and-serialization
+08-jvm-and-memory-management
+09-jdbc
+10-advanced-java-topics
+11-interview-practice
 ```
 
 ## Learning Approach
 
-For every topic:
-
-1. Understand the core concept.
-2. Review the required examples.
-3. Complete the coding assignments.
-4. Revise the interview questions.
-5. Improve the solution when a better approach is available.
+1. Understand the required concepts.
+2. Attempt problems from `assignment.md`.
+3. Write solutions inside the `code/` folder.
+4. Review and improve the solutions.
+5. Revise the interview questions.
 
 ## Goals
 
-- Build strong Core Java fundamentals
+- Strengthen Core Java fundamentals
 - Write clean and maintainable Java code
-- Understand important internal implementations
-- Practice interview-relevant coding problems
+- Practice interview-relevant problems
 - Prepare for SDE-2 Java interviews
-
-## Naming Conventions
-
-- Folder names use lowercase letters and hyphens.
-- Markdown files follow the topic name.
-- Java class names use PascalCase.
-- Assignment files use the name `assignments.md`.
 
 ## Status
 
-This repository is actively being developed. Topics, coding exercises, and interview questions will be added progressively as the learning journey continues.
+🚧 Learning and practice in progress
